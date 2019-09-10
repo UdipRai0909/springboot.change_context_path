@@ -11,5 +11,6 @@ public class ServletConfig implements WebServerFactoryCustomizer<ConfigurableSer
 	public void customize(ConfigurableServletWebServerFactory factory) {
 		factory.setPort(8689);
         factory.setContextPath("/sursa");
+        
 	}
 }
